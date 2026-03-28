@@ -1,20 +1,21 @@
-/* @author Krish Aravind
- * @version 4.0
- * @since UC4
+/**
+ * @author Krish Aravind
+ * @version 5.0
+ * @since UC5
  */
-public class uc4 {
+public class uc5 {
     public static void main(String[] args) {
-        // Check if the array is empty
-        if (args.length > 0) {
-            // Iterate through each argument provided
+        // Condition to handle the empty arguments case
+        if (args.length == 0) {
+            System.out.println("Hello, World!");
+        } else {
+            // UC5: Using Enhanced For Loop (for-each)
             for (String name : args) {
-                if (name != null && !name.isEmpty()) {
-                    System.out.println("Hello " + name + "!");
+                // Ensure we don't process null or empty strings if passed
+                if (name != null && !name.trim().isEmpty()) {
+                    System.out.println("Hello, " + name + "!");
                 }
             }
-        } else {
-            // Default case if no arguments are passed
-            System.out.println("Hello World!");
         }
     }
 }
