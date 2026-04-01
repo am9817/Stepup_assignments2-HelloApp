@@ -1,5 +1,4 @@
 /**
- * @author Krish Aravind
  * @version 5.0
  * @since UC5
  */
