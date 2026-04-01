@@ -1,7 +1,4 @@
-/* 
- * @version 3.0
- * @since UC3
- */
+
 public class uc3 {
     public static void main(String[] args) {
         String name = "World";
