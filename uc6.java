@@ -1,8 +1,4 @@
-/**
 
- * @version 6.0
- * @since UC6
- */
 public class uc6 {
     public static void main(String[] args) {
         // Handle the default case
