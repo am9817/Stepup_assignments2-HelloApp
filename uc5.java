@@ -1,7 +1,4 @@
-/**
- * @version 5.0
- * @since UC5
- */
+
 public class uc5 {
     public static void main(String[] args) {
         // Condition to handle the empty arguments case
